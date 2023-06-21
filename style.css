@@ -1,0 +1,130 @@
+/* 重置一些基本的樣式 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* 基本字體設置 */
+body {
+  background-color: #f5f5f5;
+}
+
+/* 基本鏈接樣式 */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 按鈕樣式 */
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* 材料設計風格修改 */
+  background-image: linear-gradient(#007bff, #0056b3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  /* 材料設計風格修改 */
+  background-image: linear-gradient(#0056b3, #00337a);
+}
+
+/* 文本框樣式 */
+.input-text {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* 材料設計風格修改 */
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 容器框樣式 */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  /* 材料設計風格修改 */
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* 標題樣式 */
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  /* 材料設計風格修改 */
+  color: #007bff;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 頁腳樣式 */
+.footer {
+  background-color: #f5f5f5;
+  padding: 16px;
+  text-align: center;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .container {
+    padding: 8px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover {
+  background-color: #111;
+}
