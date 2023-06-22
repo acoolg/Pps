@@ -1,7 +1,6 @@
 var ran = 0
 var count = 0
 console.log(document.getElementById('word'));
-promt('雞你太美')
 
 function getrandom(min, max) {
   min = Math.ceil(min);
