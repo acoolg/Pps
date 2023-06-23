@@ -2,7 +2,7 @@ function switchPage(url) {
   window.location.href = url;
 }
 
-function submit() {
+document.getElementById('btn').onclick = function() {
   var robot = document.getElementById('robot');
   var password = document.getElementById('password').value;
   var email = document.getElementById('email').value;
